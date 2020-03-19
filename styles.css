@@ -324,6 +324,12 @@ textarea {
   color: #77205d !important;
 }
 
+.homepageLink:hover {
+  color: #77205d !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .backtoplink {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
