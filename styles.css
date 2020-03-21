@@ -357,6 +357,20 @@ textarea {
   padding-right: 30px;
 }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 @media only screen and (max-width: 576px) {
   .paddingleftrightresponsive {
     padding-left: 10px;
